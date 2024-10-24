@@ -23,11 +23,14 @@
 body {
   background-color: white;
   font-family: Arial, Helvetica, sans-serif;
-  
+  margin: 0;
+  padding: 0;
+  background-attachment: fixed;
 }
 
 body::-webkit-scrollbar {
   display: none;
+  
 }
 
 * {
@@ -765,13 +768,12 @@ canvas {
 .uvi-input[type='range']::-webkit-slider-thumb {
   -webkit-appearance: none !important;
   background: white;
-
+  box-shadow: 0 0 10px #ffffff;
   z-index: 2;
-  width: 13px;
-  height: 13px;
+  width: 10px;
+  height: 10px;
   border-radius: 50px;
   transition: 0.5s ease-in-out ;
-  border: 2px solid var(--background-color);
 
 }
 
