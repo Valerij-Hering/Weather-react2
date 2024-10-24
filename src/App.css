@@ -26,6 +26,8 @@ body {
   margin: 0;
   padding: 0;
   background-attachment: fixed;
+    transition: 2s;
+    height: 100vh;
 }
 
 body::-webkit-scrollbar {
@@ -40,7 +42,7 @@ body::-webkit-scrollbar {
 
 .weather-app {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
   width: 100%;
@@ -50,7 +52,7 @@ body::-webkit-scrollbar {
   background-size: auto;
   background-position: top;
   background-repeat: no-repeat;
-  gap: 20px;
+  
 }
 
 .weather-container {
@@ -854,7 +856,9 @@ canvas {
 }
 
 @media all and (max-width: 640px) {
-
+  .weather-app {
+    background-attachment: scroll;
+  }
   .weather-icon-header {
     position: absolute;
     top: -20px;
