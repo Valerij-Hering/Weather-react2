@@ -134,7 +134,7 @@ const WeatherApp = () => {
                 </div> // Прелоадер во время загрузки
             ) : (
             <div className="weather-app" style={{backgroundImage: `url(weather-icons-header/${weatherData.weather[0].icon}.jpg)`}}>
-                <div className='weather-container'>
+
                     <br/>
                     <br/>
                         {weatherData && (
@@ -179,7 +179,7 @@ const WeatherApp = () => {
                             <DewPoint/>
                         </div>
                     )}
-                </div>
+
             </div>
             )}
         
