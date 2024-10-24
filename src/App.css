@@ -27,7 +27,6 @@ body {
   padding: 0;
   background-attachment: fixed;
     transition: 2s;
-    height: 100vh;
 }
 
 body::-webkit-scrollbar {
@@ -52,7 +51,8 @@ body::-webkit-scrollbar {
   background-size: auto;
   background-position: top;
   background-repeat: no-repeat;
-  
+  -webkit-background-size: cover !important;
+  position: static;
 }
 
 .weather-container {
