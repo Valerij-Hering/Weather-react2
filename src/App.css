@@ -47,12 +47,10 @@ body::-webkit-scrollbar {
   width: 100%;
   max-width: 500px;
   margin: 0px auto;
-  background-attachment: fixed;
+  background-attachment: fixed !important;
   background-size: auto;
   background-position: top;
-  background-repeat: no-repeat;
-  -webkit-background-size: cover !important;
-  position: static;
+  background-repeat: no-repeat ;
 }
 
 .weather-container {
