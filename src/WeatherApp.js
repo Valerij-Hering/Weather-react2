@@ -127,7 +127,7 @@ const WeatherApp = () => {
     };
 
     return (
-        <>
+        <div>
             {isLoading ? (
                 <div className='spinner-container'>
                     <div className="spinner"></div> 
@@ -183,7 +183,7 @@ const WeatherApp = () => {
             </div>
             )}
         
-        </>
+        </div>
     );
 };
 

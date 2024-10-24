@@ -51,18 +51,7 @@ body::-webkit-scrollbar {
   background-size: auto;
   background-position: top;
   background-repeat: no-repeat;
-
-  -webkit-transform: none;
-  transform: none;
-  -webkit-backface-visibility: visible;
-  -webkit-font-smoothing: antialiased;
-  -webkit-perspective: none;
-  -webkit-transform: none;
-  -webkit-transition-delay: none;
-  -webkit-transition-duration: none;
-  -webkit-transition-property: none;
-  -webkit-transition-timing-function: none;
-  backface-visibility: visible;
+  
 }
 
 .weather-container {
