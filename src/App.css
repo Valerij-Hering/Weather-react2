@@ -50,7 +50,7 @@ body::-webkit-scrollbar {
   background-size: auto;
   background-position: top;
   background-repeat: no-repeat;
-  z-index: -1;
+  -webkit-background-attachment: fixed;
 }
 
 .weather-container {
