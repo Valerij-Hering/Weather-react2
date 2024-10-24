@@ -25,8 +25,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
-  background-attachment: fixed;
-    transition: 2s;
+  transition: 2s;
 }
 
 body::-webkit-scrollbar {
@@ -47,11 +46,11 @@ body::-webkit-scrollbar {
   width: 100%;
   max-width: 500px;
   margin: 0px auto;
-  background-attachment: fixed !important;
+  background-attachment: fixed;
   background-size: auto;
   background-position: top;
   background-repeat: no-repeat;
-  
+  z-index: -1;
 }
 
 .weather-container {
